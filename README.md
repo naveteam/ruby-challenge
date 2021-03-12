@@ -1,14 +1,24 @@
 # Desafio de back-end Ruby on Rails
+
 ## Navedex API
+
 ### O Sistema:
 O sistema consiste em um criador de navedex's, nele tu poderá se cadastrar utilizando `email` e `senha`, e então ao logar terá acesso ao banco de dados dos seus navers, possuindo informações como: nomes, data de nascimento, cargos, tempo de empresa e projetos que participou.
 Você deve fazer a estrutura do banco de dados como achar necessário, mas lembrando que é obrigatório as entidades de `users`, `navers` e `projetos` estarem relacionadas entre si. Deve ser possível saber em quais projetos um naver está e vice-versa, tudo baseado no usuário que fez a requisição.
+
 ### O que deve ser entregue:
+
 Deve ser implementada uma API utilizando [Ruby on Rails](https://rubyonrails.org/) no padrão [`RESTful`](https://becode.com.br/o-que-e-api-rest-e-restful/#:~:text=REST%20significa%20Representational%20State%20Transfer,abstra%C3%A7%C3%A3o%20da%20arquitetura%20da%20Web.) que possibilite as funcionalidades descritas abaixo:
+
+
 Junto a API, uma documentação de como testar o sistema é muito bem-vinda. Muitas vezes o README.md do projeto basta, porém também é interessante disponibilizar documentação a partir de algum software para testar suas requests, recomendamos o [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download/) e desenvolver testes unitários.
+
 Utilizar [Docker](https://www.docker.com/) para colocar os serviços em containers é considerado como um bônus no seu projeto, a implementação de um front-end também é considerado como bônus, mesmo que seja somente com os templates e helpers do próprio Rails;
+
 O entregável do teste será o link de um repositório público no seu github pessoal contendo tudo que foi pedido acima.
+
 ### Funcionalidades
+
 - Autenticação
     - (Signup) Rota de cadastro 
         - Deverá receber email e senha e criar novo registro no banco
@@ -139,16 +149,22 @@ OBS: ```AS ROTAS A BAIXO NÃO PODEM SER ACESSADAS CASO O USUÁRIO NÃO POSSUA O 
   - (Delete) Rota Para Deletar um Projeto
     - Recebe um identificador de projeto e o remove dos registros do banco.
     - Um usuário só pode deletar seus próprios projetos
+    - 
 ## Observações
+
 As respostas da API devem ser em formato JSON como nos exemplos acima.
+
 Você deve utilizar a `versão 4.2 ou superior do Rails`, você também pode utilizar qualquer gem ou lib para desenvolver as funcionalidades solicitadas, lembre-se de documentar quais foram utilizadas, sem precisar explicar o porquê da escolha. 
+
 Alguns exemplos:
 - Gem Devise para a autenticação;
 - Gem Rspec para os testes;
 - Bootstrap para estilização do front-end (se for o caso).
+- 
 Prefira o uso de um banco de dados relacional (postgresql, mysql, ...), sendo seu uso não obrigatório.<br>
 Para organizar a estrutura de seu projeto prefira o uso do padrão `MVC` sendo seu uso não obrigátório.<br>
 Será observado organização de código, legibilidade e melhor uso dos recursos do Rails.
+
 Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção `Dificuldades` do seu README.md e nos submite até onde chegou :smile:
 
-Ao finalizar o teste, envie o link do seu repositório pela plataforma [gupy](https://nave-team.gupy.io/).
+Ao finalizar o teste, envie o link do seu repositório pela plataforma gupy.
