@@ -160,7 +160,7 @@ Alguns exemplos:
 - Gem Devise para a autenticação;
 - Gem Rspec para os testes;
 - Bootstrap para estilização do front-end (se for o caso).
-- 
+
 Prefira o uso de um banco de dados relacional (postgresql, mysql, ...), sendo seu uso não obrigatório.<br>
 Para organizar a estrutura de seu projeto prefira o uso do padrão `MVC` sendo seu uso não obrigátório.<br>
 Será observado organização de código, legibilidade e melhor uso dos recursos do Rails.
