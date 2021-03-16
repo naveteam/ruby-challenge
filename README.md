@@ -15,7 +15,7 @@ Junto a API, uma documentação de como testar o sistema é muito bem-vinda. Mui
 
 Utilizar [Docker](https://www.docker.com/) para colocar os serviços em containers é considerado como um bônus no seu projeto, a implementação de um front-end também é considerado como bônus, mesmo que seja somente com os templates e helpers do próprio Rails;
 
-O entregável do teste será o link de um repositório público no seu github pessoal contendo tudo que foi pedido acima.
+Enviar o link do repositório como mensagem lá na gupy.
 
 ### Funcionalidades
 
